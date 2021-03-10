@@ -1,21 +1,8 @@
 package one.digitalinnovation.digiobank
 
-class Pessoa(
-    var nome: String ="Nome",
-    var cpf: String = "123.456.789-10" //proibe a alteração da propriedade
-){
-    inner class Endereco{
-        var rua:String = "Nome Rua"
-    }
-    //constructor()
+open class Pessoa(
+    var nome: String,
+    var cpf: String
+)
 
-    fun pessoaInfo() = "$nome e $cpf"
-
-
-}
-
-fun main(){
-    val manu = Pessoa()
-    println(manu.pessoaInfo())
-}
 
