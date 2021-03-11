@@ -7,6 +7,3 @@ fun main(){
     imprimeRelatorio(objetoFuncionario)
 }
 
-fun imprimeRelatorio(funcionario:Funcionario){
-    println(funcionario.toString())
-}
